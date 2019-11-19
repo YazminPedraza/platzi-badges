@@ -1,18 +1,24 @@
 import React from "react";
 
 class BadgeForm extends React.Component {
-    handleChange = e => {
-        console.log({name: e.target.name , value: e.target.value});
-    }
+  state = {}; //Setting  state object as empty
 
-    handleClick = e => {
-        console.log('Button was clicked');
-    }
+  handleChange = e => {
+    //console.log({name: e.target.name , value: e.target.value});
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  };
 
-    handleSubmit = e => {
-        e.preventDefault();
-        console.log('Form was submitted');
-    }
+  handleClick = e => {
+    console.log("Button was clicked");
+  };
+
+  handleSubmit = e => {
+    e.preventDefault();
+    console.log("Form was submitted");
+    console.log(this.state);
+  };
 
   render() {
     return (
@@ -27,6 +33,43 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="firstName"
+              value={this.state.firstName}
+            />
+
+            <label>Last Name</label>
+            <input
+              onChange={this.handleChange}
+              className="form-control"
+              type="text"
+              name="lastName"
+              value={this.state.lastName}
+            />
+
+            <label>Email</label>
+            <input
+              onChange={this.handleChange}
+              className="form-control"
+              type="email"
+              name="email"
+              value={this.state.email}
+            />
+
+            <label>Job Title</label>
+            <input
+              onChange={this.handleChange}
+              className="form-control"
+              type="text"
+              name="jobTitle"
+              value={this.state.jobTitle}
+            />
+
+            <label>Twitter</label>
+            <input
+              onChange={this.handleChange}
+              className="form-control"
+              type="text"
+              name="twitter"
+              value={this.state.twitter}
             />
           </div>
 
