@@ -26,7 +26,7 @@ class Badges extends Component {
         jobTitle: "Human Research Architect",
         twitter: "MajorRodriguez61545",
         avatarUrl:
-          "https://www.gravatar.com/avatar/d57a8be8cb9219609905da25d5f3e50a?d=retro"
+          "https://www.gravatar.com/avatar/7f1d0dd6255913cd1ccd154e0a18e13e?d=retro"
       },
       {
         id: "63c03386-33a2-4512-9ac1-354ad7bec5e9",
