@@ -6,7 +6,7 @@
       "lastName": "Grady",
       "email": "Leann_Berge@gmail.com",
       "jobTitle": "Legacy Brand Director",
-      "twitter": "FredaGrady22221-7573",
+      "twitter": "FredaGrady31",
       "avatarUrl": "https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon"
     },
     {
@@ -440,6 +440,30 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "Yazmin",
+      "lastName": "Pedraza Ortiz",
+      "email": "pedrazaortizy@gmail.com",
+      "jobTitle": "front-end developer",
+      "twitter": "yazinect",
+      "id": "s4CqXcx"
+    },
+    {
+      "firstName": "Mario",
+      "lastName": "Gonzalez",
+      "email": "mjohar30@gmail.com",
+      "jobTitle": "React developer",
+      "twitter": "mjohar",
+      "id": "ix8Yf_X"
+    },
+    {
+      "firstName": "Erik",
+      "lastName": "Pedraza",
+      "email": "erpo@gmail.com",
+      "jobTitle": "Chef",
+      "twitter": "cocineroErik",
+      "id": "wKrKtsG"
     }
   ]
 }
