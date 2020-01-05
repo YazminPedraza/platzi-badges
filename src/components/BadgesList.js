@@ -44,7 +44,9 @@ class BadgesList extends Component {
                     {this.props.badges.map(badge => {
                         return (
                             <li key={badge.id}>
-                                <BadgeListItem badge={badge}/>
+                                <Link className="text-reset text-decoration-none" to={`/badges/${badge.id}/edit`}>
+                                    <BadgeListItem badge={badge}/>
+                                </Link>
                             </li>
                         );
                     })}
